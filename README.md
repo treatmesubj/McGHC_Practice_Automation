@@ -4,7 +4,7 @@ Completes a McGraw-Hill Connect reading practice quiz via JavaScript in the brow
 
 ![alt text](https://github.com/treatmesubj/McGHC_Practice_Automation/blob/master/Screenshot%20(5).png)
 
-While taking a usual reading practice quiz for one of my textbooks on McGraw Hill Connect, I wondered how the quiz functioned,
+While taking a usual reading practice quiz for one of my textbooks on McGraw-Hill Connect, I wondered how the quiz functioned,
 so I took a look at some of the site's files. The HTML was pretty perplexing because it was a big jumble of iframes
 and nearly identical elements with no IDs. Also, there's just a big empty canvas on top of everything. There's a bunch
 of weird event handling and bubbling, maybe because of all the weird ARIA widget-type stuff going on. There's lots and lots
