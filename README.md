@@ -1,6 +1,6 @@
 # Reading Practice Quiz Automation
 
-Completes a McGraw-Hill Connect reading practice quiz via JavaScript in the browser console
+Completes a McGraw-Hill Connect reading practice quiz via JavaScript in the browser console in a few seconds
 
 ![alt text](https://github.com/treatmesubj/McGHC_Practice_Automation/blob/master/Screenshot%20(5).png)
 
