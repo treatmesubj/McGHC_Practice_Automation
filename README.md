@@ -1,5 +1,9 @@
 # Reading Practice Quiz Automation
 
+Completes a McGraw-Hill Connect reading practice quiz via JavaScript in the browser console
+
+![alt text](https://github.com/treatmesubj/McGHC_Practice_Automation/blob/master/Screenshot%20(5).png)
+
 While taking a usual reading practice quiz for one of my textbooks on McGraw Hill Connect, I wondered how the quiz functioned,
 so I took a look at some of the site's files. The HTML was pretty perplexing because it was a big jumble of iframes
 and nearly identical elements with no IDs. Also, there's just a big empty canvas on top of everything. There's a bunch
@@ -17,9 +21,9 @@ its content document body and select the next iframe by CSS within it, and then 
 ```
 document.querySelector('iframe').contentDocument.body.querySelector(div[style*='position'][style*='display: block'] iframe").contentDocument.body.querySelector("[aria-label='Magic Correct']").click();
 ```
-Then, once I had the element, I looked up how to loop and sleep in JS and implemented a little function to click the ‘Magic-Correct’ 
+Then, once I had the element, I looked up how to loop and sleep in JS and implemented a little function to click the ‘Magic Correct’ 
 button after waiting a second or so on every question until there were no more questions left.
 
 This was a pretty fun project, which helped me develop some more CSS/HTML skills and learn a little more JavaScript, which I don’t usually 
 use very much. The script really isn’t that useful, as you could just spend your time reading the questions and guessing until you 
-completed them by hand, but it is sort of cool.
+completed them by hand, but it is sort of cool. I'm not entirely sure what the consequences of using this script are...
