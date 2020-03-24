@@ -1,6 +1,6 @@
 # Reading Practice Quiz Automation
 
-Completes a McGraw-Hill Connect reading practice quiz via JavaScript in the browser console in a few seconds
+Completes a McGraw-Hill Connect reading practice quiz in a few seconds via JavaScript in the browser console
 
 ![alt text](https://github.com/treatmesubj/McGHC_Practice_Automation/blob/master/Screenshot%20(5).png)
 
@@ -11,7 +11,7 @@ of weird event handling and bubbling, maybe because of all the weird ARIA widget
 of JavaScript files but they're all terribly obfuscated. I perused the files for words like 'answer' and 'correct' and I came
 across a string: 'Magic Correct'. Deep in the HTML of an iframe document nested in another iframe document nested in
 the top-layer HTML body was a hidden button element with an aria-label attribute: 'Magic Correct'. This button had some event listening
-and sure enough when "clicked" with a JS DOM command, the quiz progressed to the next question.
+and sure enough, when "clicked" with a JS DOM command, the quiz progressed to the next question.
 
 It seemed like the HTML wasn’t changing question to question, other than the invisible paragraphs in the canvas and the aria-label
 attributes of the questions, so I figured I could write a simple script to click on the ‘Magic Correct’ button for each question. 
