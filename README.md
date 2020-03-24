@@ -13,7 +13,7 @@ across a string: 'Magic Correct'. Deep in the HTML of an iframe document nested 
 the top-layer HTML body was a hidden button element with an aria-label attribute: 'Magic Correct'. This button had some event listening
 and sure enough, when "clicked" with a JS DOM command, the quiz progressed to the next question.
 
-It seemed like the HTML wasn’t changing question to question, other than the invisible paragraphs in the canvas and the aria-label
+It seemed like the HTML wasn’t changing question-to-question, other than the invisible paragraphs in the canvas and the aria-label
 attributes of the questions, so I figured I could write a simple script to click on the ‘Magic Correct’ button for each question. 
 I figured the CSS Selector would be sort of tricky because all the elements were so ambiguous, but I learned that you can’t even
 CSS Select into elements in an iframe anyways. So then, I had to learn how to use JS to select the first iframe by CSS and go into 
