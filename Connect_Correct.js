@@ -18,7 +18,7 @@ function sleep(ms) {
 async function loop() {
 	while  (questions_left > 1) {
 		auto_correct()
-		await sleep(((Math.random() + 1)*1000)
+		await sleep(((Math.random() + 1)*1000))
 	}
 }
 
