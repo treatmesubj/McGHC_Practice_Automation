@@ -19,7 +19,7 @@ I figured the CSS Selector would be sort of tricky because all the elements were
 CSS Select into elements in an iframe anyways. So then, I had to learn how to use JS to select the first iframe by CSS and go into 
 its content document body and select the next iframe by CSS within it, and then select the button by CSS within the nested iframe. 
 ```
-document.querySelector('iframe').contentDocument.body.querySelector(div[style*='position'][style*='display: block'] iframe").contentDocument.body.querySelector("[aria-label='Magic Correct']").click();
+document.querySelector('iframe').contentDocument.body.querySelector("div[style*='position'][style*='display: block'] iframe").contentDocument.body.querySelector("[aria-label='Magic Correct']").click();
 ```
 Then, once I had the element, I looked up how to loop and sleep in JS and implemented a little function to click the ‘Magic Correct’ 
 button after waiting a second or so on every question until there were no more questions left.
